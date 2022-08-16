@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    background: url('https://t4.ftcdn.net/jpg/03/13/23/51/360_F_313235144_IGtRDTXkL74KftXQcQdGisWxK44FhXNp.jpg') no-repeat center center fixed;
-    background-size: cover;
+	background: url('https://cdn.create.vista.com/api/media/medium/298321280/stock-photo-happy-girl-shopping-bags-isolated?token=') no-repeat center center fixed;
+	background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 /* from Bulma */
@@ -56,7 +56,11 @@ body {
     border: 1px solid black !important;
 }
 
-/* -------------------------------- Media Queries */
+.bg-black {
+    background: #000 !important;
+}
+
+/* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
